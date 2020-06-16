@@ -10,6 +10,10 @@
 - [ethresear.ch](https://ethresear.ch/)
 - System design discussions for Ethereum 2.0, Plasma, crypto-economics.
 
+**SwarmResearch**
+- [swarmresear.ch](https://swarmresear.ch/)
+- System design discussions for Swarm, distributed storage, content distribution.
+
 **Ethereum Magicians**
 - [ethereum-magicians.org](https://ethereum-magicians.org)
 - Coordination of improvements to the Ethereum 1.0 protocol, EIPs, dapps, technical infrastructure, education.
@@ -17,6 +21,10 @@
 **EthHub**
 - [community.ethhub.io](https://community.ethhub.io/)
 - Community discussions about governance and economics.
+
+**Plasma Layer 2 Forum**
+- [plasma.build](https://plasma.build)
+- Discussions about the various implementations of the Plasma scaling framework
 
 **Conflux**
 - [discuss.conflux.network](http://discuss.conflux.network/)
@@ -29,6 +37,10 @@
 **DGOV**
 - [forum.dgov.foundation](https://forum.dgov.foundation/)
 - Discussions about Ethereum governance.
+
+**DAOtalk**
+- [daotalk.org](https://daotalk.org/latest)
+- Discussions about decentralized autonomous organizations (DAOs).
 
 ## Community Subreddits
 
@@ -47,7 +59,13 @@
 [/r/ethculture](https://www.reddit.com/r/ethculture/)
 - Links to art projects, images, and videos
 
+[/r/EtherMining](https://www.reddit.com/r/EtherMining/)
+- Discussion of mining the cryptocurrency Ethereum.
+
 ## Firms, Foundations, Funding Sources, Projects
+
+**Solidity**
+- [solidity-users](https://groups.google.com/forum/#!forum/solidity-users)
 
 **Status**
 - [discuss.status.im](https://discuss.status.im/)
@@ -55,8 +73,17 @@
 **Aragon**
 - [forum.aragon.org](https://forum.aragon.org/)
 
+**MetaCartel**
+- [forum.metacartel.org](https://forum.metacartel.org/)
+
 **Gnosis**
 - [forum.gnosis.pm](https://forum.gnosis.pm/)
+
+**OmiseGO**
+- [forum.omgnetwork.org](https://forum.omgnetwork.org/) 
+
+**SourceCred**
+- [discourse.sourcecred.io](https://discourse.sourcecred.io/)
 
 **TruStory**
 - [discourse.trustory.io](https://discourse.trustory.io)
@@ -65,3 +92,8 @@
 - [forum.cryptoeconomics.study](https://forum.cryptoeconomics.study/)
 - Discussions related the Cryptoeconomics.study course
 
+**WalletConnect**
+- [discuss.walletconnect.org](https://discuss.walletconnect.org)
+
+**Zeppelin Community**
+- [forum.zeppelin.solutions](https://forum.zeppelin.solutions/)

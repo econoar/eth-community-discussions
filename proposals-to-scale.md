@@ -50,56 +50,41 @@ From [5 Strategies to Scale Ethereum](https://medium.com/@jpitts/5-strategies-to
 [Lets shard the blockchain using sidechains](https://medium.com/karachain/lets-shard-the-blockchain-using-sidechains-ea42d98b7b28) by Syed Jafar Naqvi
 
 ### Connext Network
-- One deployement on mainnet, this is a modified Perun
+- State channels
 - [Connext Network](https://connext.network/)
 - [Overview of SpankChain live deployment](https://medium.com/connext/our-first-hub-is-live-on-mainnet-b5660486635e)
-- [Technical Update 7/27/2018](https://medium.com/connext/connext-v0-4-developer-update-667850e9cdd3)
-
-### Loom Network
-- [Loom Network](https://loomx.io)
-- [Overview](https://medium.com/loom-network/everything-you-need-to-know-about-loom-network-all-in-one-place-updated-regularly-64742bd839fe)
-- [Loom.js](https://github.com/loomnetwork/loom-js) - for building browser apps & services that interact with Loom DAppChains 
+- [Overview of v2.0 on mainnet](https://medium.com/connext/connext-v2-0-is-on-mainnet-b818864d3687)
 
 ### POA Network
 - [POA Network](https://poa.network/)
 - [Overview](https://github.com/poanetwork/wiki/wiki/What-is-POA)
 - [ScalingNOW! Interview 2: on Implementing Parity’s Bridge Chain Solution](https://medium.com/giveth/ethereum-dapp-scaling-poa-network-acee8a51e772) - with Igor & Roman from POA Network
 
-### Raiden Network
-- [Description of the developer preview](https://raiden-network.readthedocs.io/en/stable/what_is_the_dev_preview.html)
-- [Overview](https://raiden.network/101.html)
-- [FAQ](https://raiden.network/faq.html)
-
 ### SKALE
 - Plasma side-chain with an EVM
 - [SKALE](https://skalelabs.com/)
 - [Why SKALE?](https://medium.com/skale/why-skale-de649cbf3ab9) - Overview
 
----
+### Matic Network
+- [Matic Network](https://matic.network/)
+- [Matic 2019 Year In Review](https://medium.com/matic-network/year-in-review-2019-matic-network-aa47bf1b201b)
 
-## Under Development / Not yet integrated w/ mainnet
-
-Not ready for use in mainnet dapps, but getting closer.
-### Cosmos Hub
-- [Website](https://cosmos.network/intro/hub)
-- [Ethermint](https://ethermint.zone/) - is this active?
-- [Introducing the Ethereum Peg Zone](https://blog.cosmos.network/the-internet-of-blockchains-how-cosmos-does-interoperability-starting-with-the-ethereum-peg-zone-8744d4d2bc3f)
-- [The Shanghai Accord - Ethereum Scaling Agreement](https://blog.cosmos.network/the-shanghai-accord-ethereum-scaling-agreement-via-cosmos-at-wanxiang-global-blockchain-summit-354efa27b158)
+### Raiden Network
+- [Description of the developer preview](https://raiden-network.readthedocs.io/en/stable/what_is_the_dev_preview.html)
+- [Overview](https://raiden.network/101.html)
+- [FAQ](https://raiden.network/faq.html)
 
 ### Counterfactual
+- State Channels
 - [Counterfactual Network](https://counterfactual.com/)
 - [Overview](https://medium.com/statechannels/counterfactual-generalized-state-channels-on-ethereum-d38a36d25fc6)
 - [Introducing the Force-Move Games Framework](https://medium.com/statechannels/introducing-the-force-move-games-framework-for-state-channels-b32dd953c13f) - collaboration with Magmo
 
-### Matic Network
-- Kovan testnet
-- [Matic Network](https://matic.network/)
-- [Technical Update 9/13/2018](https://medium.com/matic-network/matic-network-technical-update-1-beca0eaa25b4)
-
-### Matter
-- SNARKs-driven Plasma
-- [Matter Labs](https://matter-labs.io/)
-- [Introducing Matter testnet](https://medium.com/matter-labs/introducing-matter-testnet-502fab5a6f17)
+### Cosmos Hub
+- [Website](https://cosmos.network/intro/hub)
+- [Ethermint](https://ethermint.zone/) - under [active development](https://github.com/ChainSafe/ethermint) by ChainSafe
+- [Introducing the Ethereum Peg Zone](https://blog.cosmos.network/the-internet-of-blockchains-how-cosmos-does-interoperability-starting-with-the-ethereum-peg-zone-8744d4d2bc3f)
+- [The Shanghai Accord - Ethereum Scaling Agreement](https://blog.cosmos.network/the-shanghai-accord-ethereum-scaling-agreement-via-cosmos-at-wanxiang-global-blockchain-summit-354efa27b158)
 
 ### Polkadot
 - [An Introduction to Polkadot](https://blog.stephantual.com/web-three-revisited-part-two-introduction-to-polkadot-what-it-is-what-it-aint-657782051d34)
@@ -114,32 +99,110 @@ Not ready for use in mainnet dapps, but getting closer.
 
 ---
 
-## Still in R&D
+## Under Development / Testnets
 
-Still being researched, some proof of concept work.
+Not ready for use w/ mainnet Ethereum dapps, but getting closer.
 
-### Plasma Framework
-- [Plasma Explained](https://medium.com/@argongroup/ethereum-plasma-explained-608720d3c60e)
-- [Plasma: Scalable Autonomous Smart Contracts](https://plasma.io/plasma.pdf) (PDF)
-- [Minimal Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426)
+### Eth2 Phase 0
+- Phase 0 is the Beacon chain, used for protocol attestations
+- [Phase 0 Specification](https://github.com/ethereum/eth2.0-specs) and [Implementations](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth2.0-teams/teams-building-eth2.0/) 
 
-### Ethereum Sharding Project
-- [State of Ethereum Protocol #1](https://media.consensys.net/state-of-ethereum-protocol-1-d3211dd0f6) - update from Ben Edgington of PegaSys
+### Loopring
+- Exchange protocol using ZK Rollup
+- [Loopring](https://loopring.org/#/)
+- [Overview](https://loopring.readthedocs.io/en/latest/English/overview/)
+- [2020 Roadmap](https://loopring.org/#/post/loopring-2020-development-roadmap)
+
+### Plasma Chamber
+- OVM over Plasma Cashflow
+- [Cryptoeconomics Lab's Plasma Chamber](https://www.cryptoeconomicslab.com)
+- [Overview](https://github.com/cryptoeconomicslab/plasma-chamber) and [Documentation](https://github.com/cryptoeconomicslab/plasma-chamber/wiki)
+
+### Fuel Labs
+- Optimistic Rollups
+- [Fuel Labs](https://fuel.sh/)
+- [Overview of beta / testnet](https://medium.com/@fuellabs/announcing-the-fuel-v0-open-beta-565a2d340fc3)
+
+### Tiramisu
+- Optimistic Rollups
+- [Project Repo](https://github.com/dharma-eng/Tiramisu)
+- [Overview / design principles](https://github.com/dharma-eng/Tiramisu/blob/master/docs/README.md#overview)
+
+---
+
+## Recently Reoriented
+
+### LeapDAO / Plasma
+- A set of NFTs represents verifiable EVM state transitions, enabling the EVM to "leap" into Plasma 
+- [Plasma Leap white paper](https://docs.google.com/document/d/1vStTjqvqZGyiI5AVtpwCIMlHFnzC_4bbixsCfs27-M8/edit#heading=h.krdzwa9n8mii)
+- [Documentation](https://docs.leapdao.org)
+- [Announcement of reorientation](http://ipfs.leapdao.org/blog/mainnet-shutdown) - moving toward ORUs and ZK-rollups
+
+### Matter Labs / Plasma
+- SNARKs-driven Plasma
+- [Matter Labs](https://matter-labs.io/)
+- [Introducing Matter testnet](https://medium.com/matter-labs/introducing-matter-testnet-502fab5a6f17)
+- [Announcement of reorientation](https://medium.com/matter-labs/software-engineering-jobs-at-matter-labs-c456d01b2a02) - moved toward ZK-rollups
+
+### Plasma Group
+- generalized framework for all Plasma types
+- [Documentation](https://docs.plasma.group/projects/spec/en/latest/)
+- [Announcement of reorientation](https://medium.com/plasma-group/on-to-new-beginnings-e9d76b170752) - moved toward ORUs, group is re-named to Optimism
+
+---
+
+## Still in R&D / Prototypes
+
+### Eth2 / Ethereum Sharding Project - Phase 1 and 2, General Protocol
+- Note: Phase 0 is specified, viable clients are built, and the network will be launching in the near future
+- [Phase 1](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/#phase-1-shard-chains) shards and [Phase 2](https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-phases/#phase-2-state-execution) execution engines
 - [An engineer's guide to 2.0](https://hackernoon.com/what-to-expect-when-eths-expecting-80cb4951afcd) by James Prestwich
 - [How sharding works](https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6)
 - [How to Scale Ethereum: Sharding Explained](https://medium.com/prysmatic-labs/how-to-scale-ethereum-sharding-explained-ba2e283b7fce)
 - [FAQ](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
 - [Overview and Finality](https://medium.com/@icebearhww/ethereum-sharding-and-finality-65248951f649) by Hsiao-Wei Wang
 
----
+### Nitro Protocol
+- "standard" state channels
+- [Nitro Protocol](https://protocol.statechannels.org)
+- [Documentation](https://protocol.statechannels.org/docs/state-channels/overview)
 
-## Research Work
+### Optimism
+- Optimistic Rollups w/ EVM
+- [Optimism](https://optimism.io/)
 
 ### Smart Contracts and "compute" in Filecoin
 - [Filecoin WP - July 19, 2017](https://filecoin.io/filecoin.pdf) @ Section 7.1 "Contracts in Filecoin"
 - [Filecoin: protocol overview - BPASE '18](https://www.youtube.com/watch?v=vyRZBeMtkrA) @ 21:57
 
-### "snaps" - dapps with SNARKS
+---
+
+## Research Work
+
+### Ethereum Community R&D
+- [EthResearch](https://ethresear.ch/) is where discussions about scaling Ethereum generally happen
+
+### Stateless Ethereum / Eth1x
+- [EthResearch topics](https://ethresear.ch/c/eth1x-research)
+
+### State Channels
+- [Overview of state channels](https://docs.ethhub.io/ethereum-roadmap/layer-2-scaling/state-channels/)
+- [Proposed state channels standard](https://statechannels.org)
+
+### Plasma Framework
+- [Plasma Explained](https://medium.com/@argongroup/ethereum-plasma-explained-608720d3c60e)
+- [Plasma World Map](https://ethresear.ch/t/plasma-world-map-the-hitchhiker-s-guide-to-the-plasma/4333)
+- [Minimal Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426)
+
+### Rollups
+- [Summary: The Dawn of Hybrid Layer 2 Protocols](https://vitalik.ca/general/2019/08/28/hybrid_layer_2.html) - by Vitalik Buterin
+
+**Optimistic Rollups**
+- [Minimal Viable Merged Consensus](https://ethresear.ch/t/minimal-viable-merged-consensus/5617) - by John Adler and Mikerah Quintyne-Collins
+- [The Whys of Optimistic Rollup](https://medium.com/@adlerjohn/the-why-s-of-optimistic-rollup-7c6a22cbb61a)
+
+**ZK-Rollups**
+- [On-chain scaling to potentially ~500 tx/sec through mass tx validation](https://ethresear.ch/t/on-chain-scaling-to-potentially-500-tx-sec-through-mass-tx-validation/3477) - by Vitalik Buterin
 - [barryWhiteHat's roll_up](https://github.com/barryWhiteHat/roll_up)
 - [Plasma snapp - fully verified plasma chain](https://ethresear.ch/t/plasma-snapp-fully-verified-plasma-chain/3391)
 
@@ -149,9 +212,20 @@ Still being researched, some proof of concept work.
 over Cryptographic Currencies](https://eprint.iacr.org/2017/635.pdf) (PDF)
 - [Foundations of State Channel Networks](https://eprint.iacr.org/2018/320.pdf) (PDF)
 
+
+
 ---
 
 ## What's Happening?
+
+Recently not enough information, GitHub updates, etc. to determine status
+
+### Loom Network
+- "Looks like the Loom Network has thrown in the towel" - 5/20/2020 [CoinTelegraph article](https://cointelegraph.com/news/looks-like-the-loom-network-has-thrown-in-the-towel)
+- "We haven't gone anywhere, and the chain is still operational." - 5/20/2020 [Tweet from @LoomNetwork](https://twitter.com/loomnetwork/status/1259328823218192385)
+- [Loom Network](https://loomx.io)
+- [Overview](https://medium.com/loom-network/everything-you-need-to-know-about-loom-network-all-in-one-place-updated-regularly-64742bd839fe)
+- [Loom.js](https://github.com/loomnetwork/loom-js) - for building browser apps & services that interact with Loom DAppChains 
 
 ### TrueBit
 - [An Introduction to TrueBit](https://medium.com/@simondlr/an-intro-to-truebit-a-scalable-decentralized-computational-court-1475531400c3)
